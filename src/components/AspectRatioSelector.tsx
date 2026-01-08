@@ -4,7 +4,7 @@ interface AspectRatioSelectorProps {
   disabled: boolean
 }
 
-const ASPECT_RATIOS = ["1:1", "16:9", "9:16"]
+const ASPECT_RATIOS = ["1:1", "16:9"]
 
 export default function AspectRatioSelector({ value, onChange, disabled }: AspectRatioSelectorProps) {
   return (

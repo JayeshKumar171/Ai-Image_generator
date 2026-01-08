@@ -16,7 +16,7 @@ export default function ImageHistory({ history, onSelectImage }: ImageHistoryPro
           title={image.prompt}
         >
           <img
-            src={image.imageUrl || "/placeholder.svg"}
+            src={image.imageUrl}
             alt={image.prompt}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
